@@ -1,0 +1,1144 @@
+{
+  "overview": {
+    "name": "Misthold",
+    "tagline": "Where darkness reigns and legends are forged in shadow",
+    "description": "A realm shrouded in eternal twilight, where ancient powers slumber beneath the earth and the boundaries between life and death grow thin. Misthold is a land of stark beauty and terrible danger, where survival demands both strength and cunning.",
+    "themes": [
+      "Dark Fantasy",
+      "Moral Ambiguity",
+      "Ancient Evils",
+      "Forbidden Magic",
+      "Political Intrigue",
+      "Survival Horror"
+    ]
+  },
+  "creationMyth": {
+    "title": "The Shattering of the Void",
+    "story": "In the beginning, there was only the Void - an endless expanse of perfect darkness and silence. From this primordial nothingness emerged the First Entities: Aetheris, bringer of light, and Umbra, keeper of shadows. Their eternal dance created the fabric of reality itself.\n    \nBut their harmony was not to last. Aetheris sought to fill the Void with creation, while Umbra cherished the perfect emptiness. Their conflict tore through the cosmos, and in their final confrontation, both were shattered. Fragments of Aetheris became the stars and suns, while pieces of Umbra fell to form the dark worlds.\n\nNightheim is one such fragment - a world born from the essence of shadow, forever marked by the conflict of its creators. The magic that flows through this realm is the lingering power of the First Entities, and those who wield it risk attracting the attention of what remains of their consciousness.",
+    "entities": [
+      {
+        "id": "entity_aetheris",
+        "name": "Aetheris",
+        "domain": "Light, Creation, Order",
+        "description": "The Bringer of Dawn, whose shattered form became the celestial bodies. Worshipped by those who seek hope in darkness."
+      },
+      {
+        "id": "entity_umbra",
+        "name": "Umbra",
+        "domain": "Darkness, Preservation, Chaos",
+        "description": "The Keeper of Shadows, whose essence forms the foundation of the dark worlds. Revered by those who embrace the void."
+      },
+      {
+        "id": "entity_the_echo",
+        "name": "The Echo",
+        "domain": "Memory, Prophecy, Fate",
+        "description": "The lingering consciousness of both entities, speaking through oracles and madmen."
+      }
+    ]
+  },
+  "geography": {
+    "regions": [
+      {
+        "id": "region-nys62qoxk",
+        "name": "The Shadowed Vale",
+        "biome": "mountain_peaks",
+        "description": "A mountain peaks characterized by Jagged peaks, Snow-capped. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 103,
+          "y": 17,
+          "width": 172,
+          "height": 129
+        },
+        "cities": [
+          {
+            "id": "city-iji6d9c7v",
+            "name": "Ravenfall",
+            "population": 1614,
+            "type": "capital",
+            "coordinates": {
+              "x": 285,
+              "y": 233
+            }
+          },
+          {
+            "id": "city-9nljcmjum",
+            "name": "Darkgard",
+            "population": 19626,
+            "type": "major",
+            "coordinates": {
+              "x": 736,
+              "y": 553
+            }
+          },
+          {
+            "id": "city-sjwj39e19",
+            "name": "Nightcrest",
+            "population": 38292,
+            "type": "minor",
+            "coordinates": {
+              "x": 623,
+              "y": 398
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-yib4t01ll",
+        "name": "Iron Peaks",
+        "biome": "swamp_marsh",
+        "description": "A swamp marsh characterized by Still waters, Twisted trees. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 800,
+          "y": 156,
+          "width": 122,
+          "height": 145
+        },
+        "cities": [
+          {
+            "id": "city-ihfbjl8a6",
+            "name": "Shadowgard",
+            "population": 34863,
+            "type": "capital",
+            "coordinates": {
+              "x": 258,
+              "y": 359
+            }
+          },
+          {
+            "id": "city-is7ioj303",
+            "name": "Blackfort",
+            "population": 19301,
+            "type": "major",
+            "coordinates": {
+              "x": 561,
+              "y": 76
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-nzw86gev7",
+        "name": "Bloodmarsh",
+        "biome": "dark_forest",
+        "description": "A dark forest characterized by Dense canopy, Bioluminescent fungi. Trade routes barely maintain connection to civilization.",
+        "coordinates": {
+          "x": 237,
+          "y": 371,
+          "width": 180,
+          "height": 132
+        },
+        "cities": [
+          {
+            "id": "city-xxdyhcpl4",
+            "name": "Bloodcrest",
+            "population": 4182,
+            "type": "capital",
+            "coordinates": {
+              "x": 284,
+              "y": 627
+            }
+          },
+          {
+            "id": "city-rjqrcouc4",
+            "name": "Bloodwatch",
+            "population": 19813,
+            "type": "major",
+            "coordinates": {
+              "x": 910,
+              "y": 142
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-xodbiu348",
+        "name": "Voidwood",
+        "biome": "frozen_tundra",
+        "description": "A frozen tundra characterized by Permafrost, Ice formations. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 536,
+          "y": 357,
+          "width": 192,
+          "height": 138
+        },
+        "cities": [
+          {
+            "id": "city-41op1pfwp",
+            "name": "Ravenwatch",
+            "population": 15530,
+            "type": "capital",
+            "coordinates": {
+              "x": 794,
+              "y": 499
+            }
+          },
+          {
+            "id": "city-6iy2voy4l",
+            "name": "Shadowgate",
+            "population": 15449,
+            "type": "major",
+            "coordinates": {
+              "x": 176,
+              "y": 630
+            }
+          },
+          {
+            "id": "city-wylqxwkoh",
+            "name": "Nightspire",
+            "population": 2758,
+            "type": "minor",
+            "coordinates": {
+              "x": 789,
+              "y": 602
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-7qlu2p8co",
+        "name": "Mistral Coast",
+        "biome": "mountain_peaks",
+        "description": "A mountain peaks characterized by Jagged peaks, Snow-capped. Ancient ruins dot the landscape.",
+        "coordinates": {
+          "x": 374,
+          "y": 59,
+          "width": 194,
+          "height": 110
+        },
+        "cities": [
+          {
+            "id": "city-4siui8208",
+            "name": "Darkgate",
+            "population": 8275,
+            "type": "capital",
+            "coordinates": {
+              "x": 781,
+              "y": 429
+            }
+          },
+          {
+            "id": "city-jwsgj4cd3",
+            "name": "Darkmere",
+            "population": 35353,
+            "type": "major",
+            "coordinates": {
+              "x": 258,
+              "y": 101
+            }
+          },
+          {
+            "id": "city-hcnrjtksd",
+            "name": "Darkfall",
+            "population": 17873,
+            "type": "minor",
+            "coordinates": {
+              "x": 691,
+              "y": 198
+            }
+          },
+          {
+            "id": "city-qtnx6l11y",
+            "name": "Dreadgard",
+            "population": 7475,
+            "type": "minor",
+            "coordinates": {
+              "x": 704,
+              "y": 456
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-rj4aupwcu",
+        "name": "Storm's End",
+        "biome": "barren_wasteland",
+        "description": "A barren wasteland characterized by Cracked earth, Ash deposits. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 347,
+          "y": 130,
+          "width": 157,
+          "height": 114
+        },
+        "cities": [
+          {
+            "id": "city-j66g88kda",
+            "name": "Ironhold",
+            "population": 4416,
+            "type": "capital",
+            "coordinates": {
+              "x": 586,
+              "y": 576
+            }
+          },
+          {
+            "id": "city-fgy8btgvt",
+            "name": "Nighthaven",
+            "population": 2882,
+            "type": "major",
+            "coordinates": {
+              "x": 845,
+              "y": 438
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-9q2kz7xgv",
+        "name": "Frostbite Tundra",
+        "biome": "swamp_marsh",
+        "description": "A swamp marsh characterized by Still waters, Twisted trees. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 114,
+          "y": 35,
+          "width": 138,
+          "height": 88
+        },
+        "cities": [
+          {
+            "id": "city-a0kq8d0s6",
+            "name": "Frosthold",
+            "population": 16367,
+            "type": "capital",
+            "coordinates": {
+              "x": 126,
+              "y": 67
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-h2lhmgruu",
+        "name": "Ember Wastes",
+        "biome": "coastal_cliffs",
+        "description": "A coastal cliffs characterized by Crashing waves, Sheer drops. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 728,
+          "y": 16,
+          "width": 137,
+          "height": 98
+        },
+        "cities": [
+          {
+            "id": "city-x471m30mi",
+            "name": "Bloodcrest",
+            "population": 12333,
+            "type": "capital",
+            "coordinates": {
+              "x": 218,
+              "y": 477
+            }
+          },
+          {
+            "id": "city-ciy544jma",
+            "name": "Ironfall",
+            "population": 46862,
+            "type": "major",
+            "coordinates": {
+              "x": 307,
+              "y": 577
+            }
+          },
+          {
+            "id": "city-m50sgy9ah",
+            "name": "Ravenhold",
+            "population": 27445,
+            "type": "minor",
+            "coordinates": {
+              "x": 341,
+              "y": 303
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-yhi7qq61x",
+        "name": "Nightfall Basin",
+        "biome": "frozen_tundra",
+        "description": "A frozen tundra characterized by Permafrost, Ice formations. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 784,
+          "y": 342,
+          "width": 106,
+          "height": 142
+        },
+        "cities": [
+          {
+            "id": "city-iwi6w6nea",
+            "name": "Nightwatch",
+            "population": 35057,
+            "type": "capital",
+            "coordinates": {
+              "x": 769,
+              "y": 392
+            }
+          },
+          {
+            "id": "city-unjn6u5ct",
+            "name": "Dreadgate",
+            "population": 40632,
+            "type": "major",
+            "coordinates": {
+              "x": 236,
+              "y": 554
+            }
+          },
+          {
+            "id": "city-hhlw1h2fx",
+            "name": "Ironmere",
+            "population": 45279,
+            "type": "minor",
+            "coordinates": {
+              "x": 814,
+              "y": 541
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-rpx759w5j",
+        "name": "The Cursed Lands",
+        "biome": "barren_wasteland",
+        "description": "A barren wasteland characterized by Cracked earth, Ash deposits. Ancient ruins dot the landscape.",
+        "coordinates": {
+          "x": 731,
+          "y": 460,
+          "width": 143,
+          "height": 148
+        },
+        "cities": [
+          {
+            "id": "city-lpu6y6mzw",
+            "name": "Frostcrest",
+            "population": 31801,
+            "type": "capital",
+            "coordinates": {
+              "x": 222,
+              "y": 470
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-fv08e52ik",
+        "name": "Whisperwood",
+        "biome": "frozen_tundra",
+        "description": "A frozen tundra characterized by Permafrost, Ice formations. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 495,
+          "y": 377,
+          "width": 125,
+          "height": 143
+        },
+        "cities": [
+          {
+            "id": "city-bpslf22rk",
+            "name": "Shadowhold",
+            "population": 28720,
+            "type": "capital",
+            "coordinates": {
+              "x": 837,
+              "y": 559
+            }
+          },
+          {
+            "id": "city-x8mibocyj",
+            "name": "Blackfall",
+            "population": 5371,
+            "type": "major",
+            "coordinates": {
+              "x": 672,
+              "y": 250
+            }
+          },
+          {
+            "id": "city-sk5a3vjkh",
+            "name": "Nighthaven",
+            "population": 2034,
+            "type": "minor",
+            "coordinates": {
+              "x": 790,
+              "y": 504
+            }
+          },
+          {
+            "id": "city-ppgzx1r1n",
+            "name": "Ironwatch",
+            "population": 31995,
+            "type": "minor",
+            "coordinates": {
+              "x": 941,
+              "y": 132
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-idsvgolno",
+        "name": "Dreadmoor",
+        "biome": "mountain_peaks",
+        "description": "A mountain peaks characterized by Jagged peaks, Snow-capped. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 701,
+          "y": 198,
+          "width": 135,
+          "height": 97
+        },
+        "cities": [
+          {
+            "id": "city-55qcawx53",
+            "name": "Shadowcrest",
+            "population": 37578,
+            "type": "capital",
+            "coordinates": {
+              "x": 835,
+              "y": 453
+            }
+          },
+          {
+            "id": "city-amp58ub83",
+            "name": "Darkgard",
+            "population": 38761,
+            "type": "major",
+            "coordinates": {
+              "x": 437,
+              "y": 421
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-frl6c1094",
+        "name": "Sorrow's Reach",
+        "biome": "dark_forest",
+        "description": "A dark forest characterized by Dense canopy, Bioluminescent fungi. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 404,
+          "y": 126,
+          "width": 149,
+          "height": 134
+        },
+        "cities": [
+          {
+            "id": "city-0v5ytffbn",
+            "name": "Ironmere",
+            "population": 37526,
+            "type": "capital",
+            "coordinates": {
+              "x": 882,
+              "y": 329
+            }
+          },
+          {
+            "id": "city-04lvnn371",
+            "name": "Dreadgate",
+            "population": 5047,
+            "type": "major",
+            "coordinates": {
+              "x": 498,
+              "y": 238
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-yq2o53hly",
+        "name": "Grimhold",
+        "biome": "mountain_peaks",
+        "description": "A mountain peaks characterized by Jagged peaks, Snow-capped. The region is plagued by monstrous creatures.",
+        "coordinates": {
+          "x": 232,
+          "y": 87,
+          "width": 100,
+          "height": 131
+        },
+        "cities": [
+          {
+            "id": "city-wxrnaypup",
+            "name": "Ravenspire",
+            "population": 41236,
+            "type": "capital",
+            "coordinates": {
+              "x": 452,
+              "y": 544
+            }
+          },
+          {
+            "id": "city-ks9s0cria",
+            "name": "Darkwatch",
+            "population": 39439,
+            "type": "major",
+            "coordinates": {
+              "x": 681,
+              "y": 422
+            }
+          },
+          {
+            "id": "city-p3kopeco4",
+            "name": "Ravengate",
+            "population": 14741,
+            "type": "minor",
+            "coordinates": {
+              "x": 809,
+              "y": 609
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-z28zg4xeh",
+        "name": "The Bleak Expanse",
+        "biome": "frozen_tundra",
+        "description": "A frozen tundra characterized by Permafrost, Ice formations. Trade routes barely maintain connection to civilization.",
+        "coordinates": {
+          "x": 651,
+          "y": 64,
+          "width": 169,
+          "height": 108
+        },
+        "cities": [
+          {
+            "id": "city-akdpb97vk",
+            "name": "Grimwatch",
+            "population": 25138,
+            "type": "capital",
+            "coordinates": {
+              "x": 719,
+              "y": 507
+            }
+          },
+          {
+            "id": "city-0pk4geg0r",
+            "name": "Dreadwatch",
+            "population": 27721,
+            "type": "major",
+            "coordinates": {
+              "x": 625,
+              "y": 241
+            }
+          },
+          {
+            "id": "city-fu7csak13",
+            "name": "Nightgate",
+            "population": 43033,
+            "type": "minor",
+            "coordinates": {
+              "x": 348,
+              "y": 405
+            }
+          },
+          {
+            "id": "city-fsut1w3ay",
+            "name": "Frostfort",
+            "population": 7683,
+            "type": "minor",
+            "coordinates": {
+              "x": 913,
+              "y": 587
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-2ifkw3mf3",
+        "name": "Raven's Perch",
+        "biome": "coastal_cliffs",
+        "description": "A coastal cliffs characterized by Crashing waves, Sheer drops. Ancient ruins dot the landscape.",
+        "coordinates": {
+          "x": 244,
+          "y": 262,
+          "width": 110,
+          "height": 97
+        },
+        "cities": [
+          {
+            "id": "city-opfihat4m",
+            "name": "Bloodwatch",
+            "population": 5506,
+            "type": "capital",
+            "coordinates": {
+              "x": 74,
+              "y": 644
+            }
+          },
+          {
+            "id": "city-ug5x4e1v8",
+            "name": "Ravengard",
+            "population": 32014,
+            "type": "major",
+            "coordinates": {
+              "x": 374,
+              "y": 340
+            }
+          },
+          {
+            "id": "city-tdns07378",
+            "name": "Bloodhold",
+            "population": 8121,
+            "type": "minor",
+            "coordinates": {
+              "x": 698,
+              "y": 157
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-bfjqyqzgn",
+        "name": "Doomscar",
+        "biome": "mountain_peaks",
+        "description": "A mountain peaks characterized by Jagged peaks, Snow-capped. Local legends speak of hidden treasures.",
+        "coordinates": {
+          "x": 767,
+          "y": 333,
+          "width": 110,
+          "height": 112
+        },
+        "cities": [
+          {
+            "id": "city-t2ya2bafa",
+            "name": "Grimspire",
+            "population": 22198,
+            "type": "capital",
+            "coordinates": {
+              "x": 640,
+              "y": 53
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-or4m0gpu7",
+        "name": "Silent Hills",
+        "biome": "swamp_marsh",
+        "description": "A swamp marsh characterized by Still waters, Twisted trees. Trade routes barely maintain connection to civilization.",
+        "coordinates": {
+          "x": 470,
+          "y": 256,
+          "width": 131,
+          "height": 100
+        },
+        "cities": [
+          {
+            "id": "city-yu4cki77e",
+            "name": "Bloodgate",
+            "population": 21039,
+            "type": "capital",
+            "coordinates": {
+              "x": 410,
+              "y": 463
+            }
+          },
+          {
+            "id": "city-rrlpk9vum",
+            "name": "Blackhold",
+            "population": 17501,
+            "type": "major",
+            "coordinates": {
+              "x": 120,
+              "y": 56
+            }
+          },
+          {
+            "id": "city-i6y52plrg",
+            "name": "Darkhaven",
+            "population": 47697,
+            "type": "minor",
+            "coordinates": {
+              "x": 525,
+              "y": 106
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-0wv9aa20c",
+        "name": "The Shattered Plains",
+        "biome": "dark_forest",
+        "description": "A dark forest characterized by Dense canopy, Bioluminescent fungi. Trade routes barely maintain connection to civilization.",
+        "coordinates": {
+          "x": 12,
+          "y": 240,
+          "width": 159,
+          "height": 119
+        },
+        "cities": [
+          {
+            "id": "city-huzty9vvy",
+            "name": "Ravenspire",
+            "population": 36477,
+            "type": "capital",
+            "coordinates": {
+              "x": 342,
+              "y": 279
+            }
+          }
+        ]
+      },
+      {
+        "id": "region-l2oow6xk9",
+        "name": "Obsidian Ridge",
+        "biome": "frozen_tundra",
+        "description": "A frozen tundra characterized by Permafrost, Ice formations. Trade routes barely maintain connection to civilization.",
+        "coordinates": {
+          "x": 81,
+          "y": 112,
+          "width": 122,
+          "height": 81
+        },
+        "cities": [
+          {
+            "id": "city-yz9ccr3e3",
+            "name": "Grimspire",
+            "population": 43851,
+            "type": "capital",
+            "coordinates": {
+              "x": 374,
+              "y": 529
+            }
+          },
+          {
+            "id": "city-8js88cip9",
+            "name": "Ravenhaven",
+            "population": 30258,
+            "type": "major",
+            "coordinates": {
+              "x": 685,
+              "y": 427
+            }
+          }
+        ]
+      }
+    ],
+    "biomes": [
+      {
+        "type": "dark_forest",
+        "color": "#1a2f1a",
+        "characteristics": [
+          "Dense canopy",
+          "Bioluminescent fungi",
+          "Ancient trees",
+          "Hidden dangers"
+        ]
+      },
+      {
+        "type": "barren_wasteland",
+        "color": "#2d2418",
+        "characteristics": [
+          "Cracked earth",
+          "Ash deposits",
+          "Scant vegetation",
+          "Harsh winds"
+        ]
+      },
+      {
+        "type": "mountain_peaks",
+        "color": "#3d3d4a",
+        "characteristics": [
+          "Jagged peaks",
+          "Snow-capped",
+          "Thin air",
+          "Eagle nests"
+        ]
+      },
+      {
+        "type": "swamp_marsh",
+        "color": "#1f291f",
+        "characteristics": [
+          "Still waters",
+          "Twisted trees",
+          "Fog banks",
+          "Unseen depths"
+        ]
+      },
+      {
+        "type": "coastal_cliffs",
+        "color": "#2a3d4a",
+        "characteristics": [
+          "Crashing waves",
+          "Sheer drops",
+          "Sea caves",
+          "Salt spray"
+        ]
+      },
+      {
+        "type": "frozen_tundra",
+        "color": "#4a5d6a",
+        "characteristics": [
+          "Permafrost",
+          "Ice formations",
+          "Aurora borealis",
+          "Biting cold"
+        ]
+      }
+    ]
+  },
+  "magicSystem": {
+    "sources": [
+      {
+        "id": "source_void",
+        "name": "The Void",
+        "description": "Primordial darkness from which all magic flows"
+      },
+      {
+        "id": "source_blood",
+        "name": "Blood Essence",
+        "description": "Life force extracted from living beings"
+      },
+      {
+        "id": "source_stars",
+        "name": "Starlight",
+        "description": "Celestial energy from distant worlds"
+      },
+      {
+        "id": "source_earth",
+        "name": "Deep Earth",
+        "description": "Ancient power slumbering beneath the crust"
+      }
+    ],
+    "schools": [
+      {
+        "id": "school_necromancy",
+        "name": "Necromancy",
+        "description": "Command over death and undeath",
+        "associatedSource": "source_void"
+      },
+      {
+        "id": "school_shadow",
+        "name": "Shadow Weaving",
+        "description": "Manipulation of darkness and stealth",
+        "associatedSource": "source_void"
+      },
+      {
+        "id": "school_blood",
+        "name": "Hemomancy",
+        "description": "Blood magic and life manipulation",
+        "associatedSource": "source_blood"
+      },
+      {
+        "id": "school_divination",
+        "name": "Divination",
+        "description": "Seeing through time and space",
+        "associatedSource": "source_stars"
+      },
+      {
+        "id": "school_elemental",
+        "name": "Elementalism",
+        "description": "Control over earth, fire, water, air",
+        "associatedSource": "source_earth"
+      },
+      {
+        "id": "school_enchantment",
+        "name": "Enchantment",
+        "description": "Infusing objects with magical properties",
+        "associatedSource": "source_stars"
+      }
+    ],
+    "limitations": [
+      "Magic draws from finite personal reserves; overuse leads to exhaustion or death",
+      "Casting in sacred spaces attracts unwanted divine attention",
+      "Blood magic requires willing or unwilling sacrifice",
+      "Shadow magic gradually corrupts the caster's soul",
+      "Divination reveals truths the mind may not be prepared to accept",
+      "All magic leaves traces that skilled hunters can track"
+    ]
+  },
+  "factions": [
+    {
+      "id": "faction-ol0g5spao",
+      "name": "Order of the Void",
+      "description": "A order organization of the void. Ancient texts speak of their founding in the Age of Dawn.",
+      "goals": [
+        "Accumulate forbidden knowledge",
+        "Master forbidden magic"
+      ],
+      "territory": [
+        "Iron Peaks",
+        "Obsidian Ridge"
+      ],
+      "symbol": "Blade",
+      "alignment": "neutral",
+      "power": 32
+    },
+    {
+      "id": "faction-89bb9prxh",
+      "name": "Brotherhood of Shadow",
+      "description": "A brotherhood organization of shadow. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Spread their doctrine",
+        "Master forbidden magic"
+      ],
+      "territory": [
+        "The Shadowed Vale",
+        "Whisperwood"
+      ],
+      "symbol": "Serpent",
+      "alignment": "ambiguous",
+      "power": 45
+    },
+    {
+      "id": "faction-fao3o1108",
+      "name": "The Crimson Covenant",
+      "description": "A the crimson organization covenant. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Amass magical artifacts",
+        "Gain political influence"
+      ],
+      "territory": [
+        "The Shadowed Vale",
+        "Whisperwood"
+      ],
+      "symbol": "Blade",
+      "alignment": "ambiguous",
+      "power": 60
+    },
+    {
+      "id": "faction-vv7j05il0",
+      "name": "The Iron Legion",
+      "description": "A the iron organization legion. Ancient texts speak of their founding in the Age of Dawn.",
+      "goals": [
+        "Amass magical artifacts",
+        "Master forbidden magic"
+      ],
+      "territory": [
+        "Iron Peaks",
+        "Obsidian Ridge"
+      ],
+      "symbol": "Serpent",
+      "alignment": "malevolent",
+      "power": 96
+    },
+    {
+      "id": "faction-y0y21mkqs",
+      "name": "Circle of Whispers",
+      "description": "A circle organization of whispers. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Amass magical artifacts",
+        "Recruit powerful individuals"
+      ],
+      "territory": [
+        "Iron Peaks",
+        "Obsidian Ridge"
+      ],
+      "symbol": "Eye",
+      "alignment": "ambiguous",
+      "power": 42
+    },
+    {
+      "id": "faction-jaflboazj",
+      "name": "The Obsidian Throne",
+      "description": "A the obsidian organization throne. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Protect ancient secrets",
+        "Recruit powerful individuals"
+      ],
+      "territory": [
+        "Voidwood",
+        "The Cursed Lands"
+      ],
+      "symbol": "Serpent",
+      "alignment": "ambiguous",
+      "power": 83
+    },
+    {
+      "id": "faction-xuokwmlci",
+      "name": "Cult of the Eternal Night",
+      "description": "A cult organization of the eternal night. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Accumulate forbidden knowledge",
+        "Gain political influence"
+      ],
+      "territory": [
+        "Bloodmarsh",
+        "Dreadmoor"
+      ],
+      "symbol": "Raven",
+      "alignment": "benevolent",
+      "power": 71
+    },
+    {
+      "id": "faction-5dw2imbv3",
+      "name": "The Silver Hand",
+      "description": "A the silver organization hand. Their influence extends to the highest courts of power.",
+      "goals": [
+        "Overthrow existing powers",
+        "Gain political influence"
+      ],
+      "territory": [
+        "Bloodmarsh",
+        "Dreadmoor"
+      ],
+      "symbol": "Serpent",
+      "alignment": "benevolent",
+      "power": 32
+    },
+    {
+      "id": "faction-nbtg4haqo",
+      "name": "Guild of Shadows",
+      "description": "A guild organization of shadows. Ancient texts speak of their founding in the Age of Dawn.",
+      "goals": [
+        "Control trade routes",
+        "Eliminate rival factions"
+      ],
+      "territory": [
+        "Bloodmarsh",
+        "Dreadmoor"
+      ],
+      "symbol": "Hand",
+      "alignment": "ambiguous",
+      "power": 51
+    },
+    {
+      "id": "faction-t1jdqtjiu",
+      "name": "The Ashen Court",
+      "description": "A the ashen organization court. They are hunted by authorities but continue to grow.",
+      "goals": [
+        "Protect ancient secrets",
+        "Eliminate rival factions"
+      ],
+      "territory": [
+        "Storm's End",
+        "Raven's Perch"
+      ],
+      "symbol": "Hand",
+      "alignment": "neutral",
+      "power": 55
+    }
+  ],
+  "epochs": [
+    {
+      "id": "epoch-2053oq848",
+      "name": "The Age of Dawn",
+      "startYear": -5000,
+      "endYear": -4000,
+      "description": "Heroes and monsters were born in equal measure."
+    },
+    {
+      "id": "epoch-wc03vuzcz",
+      "name": "The Era of Shadows",
+      "startYear": -4000,
+      "endYear": -3000,
+      "description": "A time of great change and upheaval."
+    },
+    {
+      "id": "epoch-yh8a5efdc",
+      "name": "The Time of Sundering",
+      "startYear": -3000,
+      "endYear": -2000,
+      "description": "A time of great change and upheaval."
+    },
+    {
+      "id": "epoch-qbl6z9qxj",
+      "name": "The Age of Ash",
+      "startYear": -2000,
+      "endYear": -1000,
+      "description": "Civilization rose and fell in cycles."
+    },
+    {
+      "id": "epoch-00djps4vc",
+      "name": "The Current Darkness",
+      "startYear": -1000,
+      "endYear": null,
+      "description": "Heroes and monsters were born in equal measure."
+    }
+  ]
+}

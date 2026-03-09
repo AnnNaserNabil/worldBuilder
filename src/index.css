@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* Dark Fantasy Theme */
+@theme {
+  --color-void: #0a0a0f;
+  --color-void-light: #12121a;
+  --color-charcoal: #1a1a24;
+  --color-charcoal-light: #252532;
+  --color-shadow: #2d2d3d;
+  --color-midnight: #1e1e2e;
+  
+  --color-blood: #8b1538;
+  --color-blood-light: #a31d44;
+  --color-blood-dark: #5c0f26;
+  
+  --color-gold: #c9a959;
+  --color-gold-light: #dcc076;
+  --color-gold-dim: #8f7a3d;
+  
+  --color-mystic: #6b4c8a;
+  --color-mystic-light: #8b6ab5;
+  --color-mystic-dim: #4a3563;
+  
+  --color-fog: #6b7280;
+  --color-fog-light: #9ca3af;
+  --color-bone: #d4c4a8;
+  
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--color-void) 0%, var(--color-midnight) 50%, var(--color-void) 100%);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Links */
+a {
+  color: var(--color-gold);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-gold-light);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-void-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-shadow);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-fog);
+}
+
+/* Selection */
+::selection {
+  background: var(--color-mystic);
+  color: var(--color-bone);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--color-mystic-dim);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--color-mystic);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Utility classes */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-mystic {
+  background: linear-gradient(135deg, var(--color-mystic-light), var(--color-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-gradient {
+  position: relative;
+  background: linear-gradient(var(--color-charcoal), var(--color-charcoal)) padding-box,
+              linear-gradient(135deg, var(--color-mystic), var(--color-gold)) border-box;
+  border: 1px solid transparent;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(107, 76, 138, 0.3);
+}

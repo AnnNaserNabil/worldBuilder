@@ -1,0 +1,871 @@
+{
+  "characters": [
+    {
+      "id": "char-m7fu2jxsz",
+      "name": "Malcolm Darkwood",
+      "title": "Malcolm the Bold",
+      "faction": "faction-ol0g5spao",
+      "factionName": "Order of the Void",
+      "role": "Spy",
+      "description": "A notorious scholar bound by ancient oaths.",
+      "attributes": {
+        "strength": 9,
+        "intelligence": 6,
+        "charisma": 7,
+        "wisdom": 9,
+        "magic": 3
+      },
+      "relationships": [
+        {
+          "targetId": "char-ychvzck3r",
+          "targetName": "Lucian Stormborn",
+          "type": "enemy",
+          "description": "Sworn adversaries",
+          "strength": 1
+        },
+        {
+          "targetId": "char-t0llb6riv",
+          "targetName": "Gareth Voidwalker",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 8
+        },
+        {
+          "targetId": "char-jr4wijge6",
+          "targetName": "Evangeline Doomhammer",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 3
+        },
+        {
+          "targetId": "char-78wcq0ugf",
+          "targetName": "Darius Stormborn",
+          "type": "enemy",
+          "description": "Sworn adversaries",
+          "strength": 6
+        }
+      ]
+    },
+    {
+      "id": "char-osm5n1lxa",
+      "name": "Morgana Voidwalker",
+      "title": "Morgana the Wise",
+      "faction": "faction-t1jdqtjiu",
+      "factionName": "The Ashen Court",
+      "role": "Knight",
+      "description": "A notorious priest whose deeds are whispered in taverns.",
+      "attributes": {
+        "strength": 3,
+        "intelligence": 7,
+        "charisma": 9,
+        "wisdom": 10,
+        "magic": 10
+      },
+      "relationships": [
+        {
+          "targetId": "char-51264rss0",
+          "targetName": "Isolde Frost",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 6
+        },
+        {
+          "targetId": "char-0m6o6k7l9",
+          "targetName": "Morgana Shadowbane",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "char-22wx03nhf",
+      "name": "Vesper Shadowbane",
+      "title": "Vesper the Eternal",
+      "faction": "faction-ol0g5spao",
+      "factionName": "Order of the Void",
+      "role": "Scholar",
+      "description": "A respected hunter bound by ancient oaths.",
+      "attributes": {
+        "strength": 8,
+        "intelligence": 5,
+        "charisma": 6,
+        "wisdom": 7,
+        "magic": 5
+      },
+      "relationships": [
+        {
+          "targetId": "char-jr4wijge6",
+          "targetName": "Evangeline Doomhammer",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 5
+        },
+        {
+          "targetId": "char-lqikzr7vb",
+          "targetName": "Damien Nightfall",
+          "type": "enemy",
+          "description": "Sworn adversaries",
+          "strength": 4
+        }
+      ]
+    },
+    {
+      "id": "char-d46j6k0lz",
+      "name": "Lilith Voidwalker",
+      "title": "Lilith the Wise",
+      "faction": "faction-jaflboazj",
+      "factionName": "The Obsidian Throne",
+      "role": "Warlord",
+      "description": "A respected rogue with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 6,
+        "intelligence": 7,
+        "charisma": 8,
+        "wisdom": 5,
+        "magic": 5
+      },
+      "relationships": [
+        {
+          "targetId": "char-5np801qdn",
+          "targetName": "Morgana Darkwood",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 7
+        },
+        {
+          "targetId": "char-51264rss0",
+          "targetName": "Isolde Frost",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 10
+        }
+      ]
+    },
+    {
+      "id": "char-b2qyfjbi8",
+      "name": "Felix Darkwood",
+      "title": "Felix the Wise",
+      "faction": "faction-5dw2imbv3",
+      "factionName": "The Silver Hand",
+      "role": "Mage",
+      "description": "A notorious knight with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 7,
+        "intelligence": 7,
+        "charisma": 4,
+        "wisdom": 3,
+        "magic": 1
+      },
+      "relationships": [
+        {
+          "targetId": "char-5np801qdn",
+          "targetName": "Morgana Darkwood",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 3
+        },
+        {
+          "targetId": "char-o0k0pc1y4",
+          "targetName": "Nyssa Bloodworth",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 3
+        }
+      ]
+    },
+    {
+      "id": "char-t0llb6riv",
+      "name": "Gareth Voidwalker",
+      "title": "Gareth the Cursed",
+      "faction": "faction-xuokwmlci",
+      "factionName": "Cult of the Eternal Night",
+      "role": "Blacksmith",
+      "description": "A enigmatic noble bound by ancient oaths.",
+      "attributes": {
+        "strength": 10,
+        "intelligence": 2,
+        "charisma": 3,
+        "wisdom": 1,
+        "magic": 7
+      },
+      "relationships": [
+        {
+          "targetId": "char-d46j6k0lz",
+          "targetName": "Lilith Voidwalker",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 3
+        },
+        {
+          "targetId": "char-51264rss0",
+          "targetName": "Isolde Frost",
+          "type": "master",
+          "description": "Commands their loyalty",
+          "strength": 5
+        },
+        {
+          "targetId": "char-78wcq0ugf",
+          "targetName": "Darius Stormborn",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 9
+        },
+        {
+          "targetId": "char-ecws6mr0t",
+          "targetName": "Darius Mistral",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 6
+        }
+      ]
+    },
+    {
+      "id": "char-51264rss0",
+      "name": "Isolde Frost",
+      "title": "Isolde of Shadows",
+      "faction": "faction-5dw2imbv3",
+      "factionName": "The Silver Hand",
+      "role": "Warlord",
+      "description": "A feared blacksmith with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 10,
+        "intelligence": 6,
+        "charisma": 9,
+        "wisdom": 4,
+        "magic": 6
+      },
+      "relationships": [
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 4
+        },
+        {
+          "targetId": "char-lqikzr7vb",
+          "targetName": "Damien Nightfall",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 5
+        }
+      ]
+    },
+    {
+      "id": "char-bjg32552h",
+      "name": "Morgana Mistral",
+      "title": "Morgana the Redeemed",
+      "faction": "faction-vv7j05il0",
+      "factionName": "The Iron Legion",
+      "role": "Merchant",
+      "description": "A notorious blacksmith with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 3,
+        "intelligence": 1,
+        "charisma": 10,
+        "wisdom": 5,
+        "magic": 2
+      },
+      "relationships": [
+        {
+          "targetId": "char-ychvzck3r",
+          "targetName": "Lucian Stormborn",
+          "type": "family",
+          "description": "Blood relation",
+          "strength": 10
+        }
+      ]
+    },
+    {
+      "id": "char-0m6o6k7l9",
+      "name": "Morgana Shadowbane",
+      "title": "Morgana the Damned",
+      "faction": "faction-t1jdqtjiu",
+      "factionName": "The Ashen Court",
+      "role": "Merchant",
+      "description": "A respected spy seeking redemption for past sins.",
+      "attributes": {
+        "strength": 5,
+        "intelligence": 10,
+        "charisma": 9,
+        "wisdom": 5,
+        "magic": 10
+      },
+      "relationships": [
+        {
+          "targetId": "char-22wx03nhf",
+          "targetName": "Vesper Shadowbane",
+          "type": "master",
+          "description": "Commands their loyalty",
+          "strength": 3
+        },
+        {
+          "targetId": "char-osm5n1lxa",
+          "targetName": "Morgana Voidwalker",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 7
+        },
+        {
+          "targetId": "char-51264rss0",
+          "targetName": "Isolde Frost",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 6
+        }
+      ]
+    },
+    {
+      "id": "char-78wcq0ugf",
+      "name": "Darius Stormborn",
+      "title": "Darius the Redeemed",
+      "faction": "faction-ol0g5spao",
+      "factionName": "Order of the Void",
+      "role": "Blacksmith",
+      "description": "A respected mage with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 5,
+        "intelligence": 7,
+        "charisma": 5,
+        "wisdom": 4,
+        "magic": 9
+      },
+      "relationships": [
+        {
+          "targetId": "char-bjg32552h",
+          "targetName": "Morgana Mistral",
+          "type": "master",
+          "description": "Commands their loyalty",
+          "strength": 3
+        },
+        {
+          "targetId": "char-m7fu2jxsz",
+          "targetName": "Malcolm Darkwood",
+          "type": "family",
+          "description": "Blood relation",
+          "strength": 1
+        },
+        {
+          "targetId": "char-osm5n1lxa",
+          "targetName": "Morgana Voidwalker",
+          "type": "family",
+          "description": "Blood relation",
+          "strength": 4
+        }
+      ]
+    },
+    {
+      "id": "char-5np801qdn",
+      "name": "Morgana Darkwood",
+      "title": "Morgana the Broken",
+      "faction": "faction-y0y21mkqs",
+      "factionName": "Circle of Whispers",
+      "role": "Merchant",
+      "description": "A enigmatic rogue with secrets that could shake kingdoms.",
+      "attributes": {
+        "strength": 1,
+        "intelligence": 9,
+        "charisma": 5,
+        "wisdom": 3,
+        "magic": 2
+      },
+      "relationships": [
+        {
+          "targetId": "char-osm5n1lxa",
+          "targetName": "Morgana Voidwalker",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 1
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 7
+        }
+      ]
+    },
+    {
+      "id": "char-ecws6mr0t",
+      "name": "Darius Mistral",
+      "title": "Darius the Broken",
+      "faction": "faction-ol0g5spao",
+      "factionName": "Order of the Void",
+      "role": "Oracle",
+      "description": "A notorious knight bound by ancient oaths.",
+      "attributes": {
+        "strength": 5,
+        "intelligence": 2,
+        "charisma": 4,
+        "wisdom": 9,
+        "magic": 4
+      },
+      "relationships": [
+        {
+          "targetId": "char-ccnlhefn0",
+          "targetName": "Gareth Doomhammer",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 6
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 9
+        },
+        {
+          "targetId": "char-b2qyfjbi8",
+          "targetName": "Felix Darkwood",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 10
+        },
+        {
+          "targetId": "char-t0llb6riv",
+          "targetName": "Gareth Voidwalker",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 3
+        }
+      ]
+    },
+    {
+      "id": "char-o0k0pc1y4",
+      "name": "Nyssa Bloodworth",
+      "title": "Nyssa the Cursed",
+      "faction": "faction-t1jdqtjiu",
+      "factionName": "The Ashen Court",
+      "role": "Blacksmith",
+      "description": "A mysterious spy seeking redemption for past sins.",
+      "attributes": {
+        "strength": 10,
+        "intelligence": 5,
+        "charisma": 8,
+        "wisdom": 10,
+        "magic": 8
+      },
+      "relationships": [
+        {
+          "targetId": "char-m7fu2jxsz",
+          "targetName": "Malcolm Darkwood",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 10
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 4
+        }
+      ]
+    },
+    {
+      "id": "char-2ovwgacex",
+      "name": "Darius Nightfall",
+      "title": "Darius the Broken",
+      "faction": "faction-vv7j05il0",
+      "factionName": "The Iron Legion",
+      "role": "Warlord",
+      "description": "A feared scholar bound by ancient oaths.",
+      "attributes": {
+        "strength": 8,
+        "intelligence": 4,
+        "charisma": 7,
+        "wisdom": 9,
+        "magic": 2
+      },
+      "relationships": [
+        {
+          "targetId": "char-m7fu2jxsz",
+          "targetName": "Malcolm Darkwood",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 4
+        },
+        {
+          "targetId": "char-bjg32552h",
+          "targetName": "Morgana Mistral",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 7
+        },
+        {
+          "targetId": "char-ecws6mr0t",
+          "targetName": "Darius Mistral",
+          "type": "mentor",
+          "description": "Taught them valuable skills",
+          "strength": 3
+        }
+      ]
+    },
+    {
+      "id": "char-6mu4hkdor",
+      "name": "Damien Darkwood",
+      "title": "Damien of Shadows",
+      "faction": "faction-fao3o1108",
+      "factionName": "The Crimson Covenant",
+      "role": "Knight",
+      "description": "A seasoned assassin who walks between light and shadow.",
+      "attributes": {
+        "strength": 2,
+        "intelligence": 6,
+        "charisma": 2,
+        "wisdom": 5,
+        "magic": 9
+      },
+      "relationships": [
+        {
+          "targetId": "char-0m6o6k7l9",
+          "targetName": "Morgana Shadowbane",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 10
+        }
+      ]
+    },
+    {
+      "id": "char-a17gxkh31",
+      "name": "Viktor Nightfall",
+      "title": "Viktor the Forgotten",
+      "faction": "faction-y0y21mkqs",
+      "factionName": "Circle of Whispers",
+      "role": "Rogue",
+      "description": "A respected knight who walks between light and shadow.",
+      "attributes": {
+        "strength": 4,
+        "intelligence": 9,
+        "charisma": 8,
+        "wisdom": 4,
+        "magic": 5
+      },
+      "relationships": [
+        {
+          "targetId": "char-m7fu2jxsz",
+          "targetName": "Malcolm Darkwood",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 9
+        },
+        {
+          "targetId": "char-b2qyfjbi8",
+          "targetName": "Felix Darkwood",
+          "type": "master",
+          "description": "Commands their loyalty",
+          "strength": 8
+        },
+        {
+          "targetId": "char-d46j6k0lz",
+          "targetName": "Lilith Voidwalker",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 3
+        }
+      ]
+    },
+    {
+      "id": "char-ychvzck3r",
+      "name": "Lucian Stormborn",
+      "title": "Lucian the Unseen",
+      "faction": "faction-nbtg4haqo",
+      "factionName": "Guild of Shadows",
+      "role": "Blacksmith",
+      "description": "A seasoned priest seeking redemption for past sins.",
+      "attributes": {
+        "strength": 3,
+        "intelligence": 1,
+        "charisma": 1,
+        "wisdom": 2,
+        "magic": 1
+      },
+      "relationships": [
+        {
+          "targetId": "char-6mu4hkdor",
+          "targetName": "Damien Darkwood",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 2
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 8
+        },
+        {
+          "targetId": "char-2ovwgacex",
+          "targetName": "Darius Nightfall",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 8
+        }
+      ]
+    },
+    {
+      "id": "char-ccnlhefn0",
+      "name": "Gareth Doomhammer",
+      "title": "Gareth of the Void",
+      "faction": "faction-ol0g5spao",
+      "factionName": "Order of the Void",
+      "role": "Assassin",
+      "description": "A feared rogue who walks between light and shadow.",
+      "attributes": {
+        "strength": 5,
+        "intelligence": 3,
+        "charisma": 9,
+        "wisdom": 7,
+        "magic": 4
+      },
+      "relationships": [
+        {
+          "targetId": "char-ecws6mr0t",
+          "targetName": "Darius Mistral",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 1
+        },
+        {
+          "targetId": "char-78wcq0ugf",
+          "targetName": "Darius Stormborn",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 2
+        },
+        {
+          "targetId": "char-5np801qdn",
+          "targetName": "Morgana Darkwood",
+          "type": "family",
+          "description": "Blood relation",
+          "strength": 4
+        }
+      ]
+    },
+    {
+      "id": "char-23hi5ovxg",
+      "name": "Malcolm Mistral",
+      "title": "Malcolm the Unseen",
+      "faction": "faction-jaflboazj",
+      "factionName": "The Obsidian Throne",
+      "role": "Assassin",
+      "description": "A mysterious merchant bound by ancient oaths.",
+      "attributes": {
+        "strength": 8,
+        "intelligence": 8,
+        "charisma": 4,
+        "wisdom": 2,
+        "magic": 3
+      },
+      "relationships": [
+        {
+          "targetId": "char-bjg32552h",
+          "targetName": "Morgana Mistral",
+          "type": "family",
+          "description": "Blood relation",
+          "strength": 2
+        }
+      ]
+    },
+    {
+      "id": "char-jr4wijge6",
+      "name": "Evangeline Doomhammer",
+      "title": "Evangeline the Unseen",
+      "faction": "faction-fao3o1108",
+      "factionName": "The Crimson Covenant",
+      "role": "Necromancer",
+      "description": "A mysterious pirate whose deeds are whispered in taverns.",
+      "attributes": {
+        "strength": 7,
+        "intelligence": 3,
+        "charisma": 10,
+        "wisdom": 1,
+        "magic": 5
+      },
+      "relationships": [
+        {
+          "targetId": "char-5np801qdn",
+          "targetName": "Morgana Darkwood",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 7
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "servant",
+          "description": "Serves loyally",
+          "strength": 1
+        }
+      ]
+    },
+    {
+      "id": "char-wom6ofxcy",
+      "name": "Felix Stormborn",
+      "title": "Felix of Shadows",
+      "faction": "faction-nbtg4haqo",
+      "factionName": "Guild of Shadows",
+      "role": "Noble",
+      "description": "A seasoned scholar whose deeds are whispered in taverns.",
+      "attributes": {
+        "strength": 8,
+        "intelligence": 3,
+        "charisma": 7,
+        "wisdom": 1,
+        "magic": 4
+      },
+      "relationships": [
+        {
+          "targetId": "char-d46j6k0lz",
+          "targetName": "Lilith Voidwalker",
+          "type": "enemy",
+          "description": "Sworn adversaries",
+          "strength": 9
+        },
+        {
+          "targetId": "char-23hi5ovxg",
+          "targetName": "Malcolm Mistral",
+          "type": "ally",
+          "description": "Fights alongside in battle",
+          "strength": 8
+        },
+        {
+          "targetId": "char-5np801qdn",
+          "targetName": "Morgana Darkwood",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 8
+        }
+      ]
+    },
+    {
+      "id": "char-lqikzr7vb",
+      "name": "Damien Nightfall",
+      "title": "Damien the Redeemed",
+      "faction": "faction-5dw2imbv3",
+      "factionName": "The Silver Hand",
+      "role": "Knight",
+      "description": "A seasoned knight seeking redemption for past sins.",
+      "attributes": {
+        "strength": 4,
+        "intelligence": 6,
+        "charisma": 9,
+        "wisdom": 10,
+        "magic": 5
+      },
+      "relationships": [
+        {
+          "targetId": "char-osm5n1lxa",
+          "targetName": "Morgana Voidwalker",
+          "type": "rival",
+          "description": "Competes for the same goals",
+          "strength": 3
+        },
+        {
+          "targetId": "char-22wx03nhf",
+          "targetName": "Vesper Shadowbane",
+          "type": "lover",
+          "description": "Romantic involvement",
+          "strength": 10
+        }
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "faction-ol0g5spao",
+      "name": "Order of the Void",
+      "members": [
+        "char-m7fu2jxsz",
+        "char-22wx03nhf",
+        "char-78wcq0ugf",
+        "char-ecws6mr0t",
+        "char-ccnlhefn0"
+      ],
+      "influence": 99
+    },
+    {
+      "id": "faction-89bb9prxh",
+      "name": "Brotherhood of Shadow",
+      "members": [],
+      "influence": 84
+    },
+    {
+      "id": "faction-fao3o1108",
+      "name": "The Crimson Covenant",
+      "members": [
+        "char-6mu4hkdor",
+        "char-jr4wijge6"
+      ],
+      "influence": 86
+    },
+    {
+      "id": "faction-vv7j05il0",
+      "name": "The Iron Legion",
+      "members": [
+        "char-bjg32552h",
+        "char-2ovwgacex"
+      ],
+      "influence": 32
+    },
+    {
+      "id": "faction-y0y21mkqs",
+      "name": "Circle of Whispers",
+      "members": [
+        "char-5np801qdn",
+        "char-a17gxkh31"
+      ],
+      "influence": 66
+    },
+    {
+      "id": "faction-jaflboazj",
+      "name": "The Obsidian Throne",
+      "members": [
+        "char-d46j6k0lz",
+        "char-23hi5ovxg"
+      ],
+      "influence": 88
+    },
+    {
+      "id": "faction-xuokwmlci",
+      "name": "Cult of the Eternal Night",
+      "members": [
+        "char-t0llb6riv"
+      ],
+      "influence": 55
+    },
+    {
+      "id": "faction-5dw2imbv3",
+      "name": "The Silver Hand",
+      "members": [
+        "char-b2qyfjbi8",
+        "char-51264rss0",
+        "char-lqikzr7vb"
+      ],
+      "influence": 58
+    },
+    {
+      "id": "faction-nbtg4haqo",
+      "name": "Guild of Shadows",
+      "members": [
+        "char-ychvzck3r",
+        "char-wom6ofxcy"
+      ],
+      "influence": 56
+    },
+    {
+      "id": "faction-t1jdqtjiu",
+      "name": "The Ashen Court",
+      "members": [
+        "char-osm5n1lxa",
+        "char-0m6o6k7l9",
+        "char-o0k0pc1y4"
+      ],
+      "influence": 52
+    }
+  ]
+}

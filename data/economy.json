@@ -1,0 +1,618 @@
+{
+  "resources": [
+    {
+      "id": "res-fa03e3ihd",
+      "name": "Iron Ore",
+      "type": "material",
+      "description": "A common material resource traded along dangerous routes.",
+      "baseValue": 10,
+      "regions": [
+        "Obsidian Ridge",
+        "Sorrow's Reach"
+      ],
+      "rarity": "common"
+    },
+    {
+      "id": "res-r3hv18poo",
+      "name": "Silver",
+      "type": "material",
+      "description": "A uncommon material resource essential for crafting.",
+      "baseValue": 25,
+      "regions": [
+        "Voidwood",
+        "Nightfall Basin"
+      ],
+      "rarity": "uncommon"
+    },
+    {
+      "id": "res-nrb6f367e",
+      "name": "Gold",
+      "type": "material",
+      "description": "A rare material resource traded along dangerous routes.",
+      "baseValue": 100,
+      "regions": [
+        "Raven's Perch",
+        "Nightfall Basin"
+      ],
+      "rarity": "rare"
+    },
+    {
+      "id": "res-re74u0ye7",
+      "name": "Obsidian",
+      "type": "material",
+      "description": "A common material resource controlled by powerful factions.",
+      "baseValue": 15,
+      "regions": [
+        "The Shadowed Vale",
+        "Storm's End"
+      ],
+      "rarity": "common"
+    },
+    {
+      "id": "res-237r7g2ls",
+      "name": "Void Crystals",
+      "type": "magical",
+      "description": "A legendary magical resource essential for crafting.",
+      "baseValue": 200,
+      "regions": [
+        "Dreadmoor",
+        "Sorrow's Reach"
+      ],
+      "rarity": "legendary"
+    },
+    {
+      "id": "res-pz15axpbn",
+      "name": "Shadow Essence",
+      "type": "magical",
+      "description": "A rare magical resource traded along dangerous routes.",
+      "baseValue": 75,
+      "regions": [
+        "Obsidian Ridge",
+        "The Shattered Plains"
+      ],
+      "rarity": "rare"
+    },
+    {
+      "id": "res-g1fpqq4cf",
+      "name": "Mana Shards",
+      "type": "magical",
+      "description": "A uncommon magical resource prized by collectors.",
+      "baseValue": 50,
+      "regions": [
+        "The Cursed Lands",
+        "Silent Hills"
+      ],
+      "rarity": "uncommon"
+    },
+    {
+      "id": "res-qe7qsj0wn",
+      "name": "Grain",
+      "type": "agricultural",
+      "description": "A common agricultural resource essential for crafting.",
+      "baseValue": 5,
+      "regions": [
+        "The Shattered Plains",
+        "Doomscar"
+      ],
+      "rarity": "common"
+    },
+    {
+      "id": "res-4alw8qv2w",
+      "name": "Wine",
+      "type": "agricultural",
+      "description": "A common agricultural resource essential for crafting.",
+      "baseValue": 20,
+      "regions": [
+        "The Bleak Expanse",
+        "The Shadowed Vale"
+      ],
+      "rarity": "common"
+    },
+    {
+      "id": "res-jcom0afu3",
+      "name": "Spices",
+      "type": "agricultural",
+      "description": "A uncommon agricultural resource controlled by powerful factions.",
+      "baseValue": 35,
+      "regions": [
+        "The Bleak Expanse",
+        "Silent Hills"
+      ],
+      "rarity": "uncommon"
+    },
+    {
+      "id": "res-i4ckjhxvz",
+      "name": "Steel Weapons",
+      "type": "crafted",
+      "description": "A uncommon crafted resource essential for crafting.",
+      "baseValue": 80,
+      "regions": [
+        "The Shattered Plains",
+        "Ember Wastes"
+      ],
+      "rarity": "uncommon"
+    },
+    {
+      "id": "res-4llu6t5qd",
+      "name": "Enchanted Armor",
+      "type": "crafted",
+      "description": "A rare crafted resource prized by collectors.",
+      "baseValue": 150,
+      "regions": [
+        "Ember Wastes",
+        "Sorrow's Reach"
+      ],
+      "rarity": "rare"
+    },
+    {
+      "id": "res-4k55azfb3",
+      "name": "Potions",
+      "type": "crafted",
+      "description": "A common crafted resource traded along dangerous routes.",
+      "baseValue": 30,
+      "regions": [
+        "Raven's Perch",
+        "Dreadmoor"
+      ],
+      "rarity": "common"
+    },
+    {
+      "id": "res-wohwgn58v",
+      "name": "Jewelry",
+      "type": "crafted",
+      "description": "A uncommon crafted resource prized by collectors.",
+      "baseValue": 60,
+      "regions": [
+        "Mistral Coast",
+        "The Bleak Expanse"
+      ],
+      "rarity": "uncommon"
+    }
+  ],
+  "cities": [
+    {
+      "id": "city-urn05kxvv",
+      "name": "Shadowhaven",
+      "production": [
+        "Iron Ore",
+        "Silver",
+        "Void Crystals"
+      ],
+      "consumption": [
+        "Gold",
+        "Obsidian",
+        "Grain",
+        "Potions"
+      ],
+      "wealth": 57926,
+      "population": 32385
+    },
+    {
+      "id": "city-rg0ftyoog",
+      "name": "Ironhold",
+      "production": [
+        "Silver",
+        "Obsidian",
+        "Void Crystals"
+      ],
+      "consumption": [
+        "Spices"
+      ],
+      "wealth": 46561,
+      "population": 45772
+    },
+    {
+      "id": "city-rj9hz0oes",
+      "name": "Nightspire",
+      "production": [
+        "Silver",
+        "Shadow Essence",
+        "Mana Shards"
+      ],
+      "consumption": [
+        "Iron Ore",
+        "Wine",
+        "Steel Weapons",
+        "Enchanted Armor"
+      ],
+      "wealth": 64979,
+      "population": 2315
+    },
+    {
+      "id": "city-qt23yiore",
+      "name": "Bogwatch",
+      "production": [
+        "Gold",
+        "Void Crystals",
+        "Grain"
+      ],
+      "consumption": [
+        "Silver",
+        "Shadow Essence",
+        "Spices"
+      ],
+      "wealth": 8460,
+      "population": 17059
+    },
+    {
+      "id": "city-e48d2d5z2",
+      "name": "Frostgate",
+      "production": [
+        "Iron Ore",
+        "Silver",
+        "Obsidian"
+      ],
+      "consumption": [
+        "Gold",
+        "Mana Shards",
+        "Wine",
+        "Jewelry"
+      ],
+      "wealth": 89085,
+      "population": 14932
+    },
+    {
+      "id": "city-zr9cz9fzg",
+      "name": "Ravenspire",
+      "production": [
+        "Gold",
+        "Shadow Essence",
+        "Mana Shards"
+      ],
+      "consumption": [
+        "Iron Ore"
+      ],
+      "wealth": 80591,
+      "population": 23758
+    },
+    {
+      "id": "city-u7nvej27m",
+      "name": "Blackhold",
+      "production": [
+        "Silver",
+        "Shadow Essence",
+        "Grain"
+      ],
+      "consumption": [
+        "Obsidian",
+        "Void Crystals",
+        "Enchanted Armor",
+        "Potions"
+      ],
+      "wealth": 76945,
+      "population": 47082
+    },
+    {
+      "id": "city-r7dekq59b",
+      "name": "Voidmere",
+      "production": [
+        "Obsidian",
+        "Wine",
+        "Steel Weapons"
+      ],
+      "consumption": [
+        "Iron Ore",
+        "Gold",
+        "Potions",
+        "Jewelry"
+      ],
+      "wealth": 25264,
+      "population": 45434
+    },
+    {
+      "id": "city-j3kjbvah3",
+      "name": "Emberfall",
+      "production": [
+        "Iron Ore",
+        "Obsidian",
+        "Shadow Essence"
+      ],
+      "consumption": [
+        "Void Crystals",
+        "Enchanted Armor"
+      ],
+      "wealth": 75679,
+      "population": 13567
+    },
+    {
+      "id": "city-sv0pmtk4m",
+      "name": "Mistral",
+      "production": [
+        "Iron Ore",
+        "Silver",
+        "Grain"
+      ],
+      "consumption": [
+        "Shadow Essence",
+        "Spices",
+        "Jewelry"
+      ],
+      "wealth": 49997,
+      "population": 21848
+    }
+  ],
+  "tradeRoutes": [
+    {
+      "id": "route-cc9f5v4j5",
+      "from": "city-zr9cz9fzg",
+      "fromName": "Ravenspire",
+      "to": "city-rg0ftyoog",
+      "toName": "Ironhold",
+      "goods": [
+        "Gold",
+        "Shadow Essence"
+      ],
+      "volume": 3615,
+      "danger": 5,
+      "description": "A dangerous route connecting Ravenspire and Ironhold. The road is maintained by merchant guilds."
+    },
+    {
+      "id": "route-6ohtzb739",
+      "from": "city-u7nvej27m",
+      "fromName": "Blackhold",
+      "to": "city-zr9cz9fzg",
+      "toName": "Ravenspire",
+      "goods": [
+        "Silver",
+        "Shadow Essence"
+      ],
+      "volume": 536,
+      "danger": 7,
+      "description": "A well-traveled route connecting Blackhold and Ravenspire. Bandits lurk in the shadows."
+    },
+    {
+      "id": "route-0yk1mqmtz",
+      "from": "city-j3kjbvah3",
+      "fromName": "Emberfall",
+      "to": "city-e48d2d5z2",
+      "toName": "Frostgate",
+      "goods": [
+        "Iron Ore",
+        "Obsidian"
+      ],
+      "volume": 1167,
+      "danger": 10,
+      "description": "A heavily guarded route connecting Emberfall and Frostgate. Caravans travel weekly."
+    },
+    {
+      "id": "route-93vkevid8",
+      "from": "city-u7nvej27m",
+      "fromName": "Blackhold",
+      "to": "city-rj9hz0oes",
+      "toName": "Nightspire",
+      "goods": [
+        "Silver",
+        "Shadow Essence"
+      ],
+      "volume": 4770,
+      "danger": 5,
+      "description": "A secret route connecting Blackhold and Nightspire. Caravans travel weekly."
+    },
+    {
+      "id": "route-vrxgun9rh",
+      "from": "city-rg0ftyoog",
+      "fromName": "Ironhold",
+      "to": "city-e48d2d5z2",
+      "toName": "Frostgate",
+      "goods": [
+        "Silver",
+        "Obsidian"
+      ],
+      "volume": 1684,
+      "danger": 7,
+      "description": "A well-traveled route connecting Ironhold and Frostgate. Bandits lurk in the shadows."
+    },
+    {
+      "id": "route-7vu6gtw2k",
+      "from": "city-urn05kxvv",
+      "fromName": "Shadowhaven",
+      "to": "city-sv0pmtk4m",
+      "toName": "Mistral",
+      "goods": [
+        "Iron Ore",
+        "Silver"
+      ],
+      "volume": 2905,
+      "danger": 2,
+      "description": "A secret route connecting Shadowhaven and Mistral. Tolls are collected at checkpoints."
+    },
+    {
+      "id": "route-9kziawjsr",
+      "from": "city-j3kjbvah3",
+      "fromName": "Emberfall",
+      "to": "city-zr9cz9fzg",
+      "toName": "Ravenspire",
+      "goods": [
+        "Iron Ore",
+        "Obsidian"
+      ],
+      "volume": 4398,
+      "danger": 5,
+      "description": "A secret route connecting Emberfall and Ravenspire. Bandits lurk in the shadows."
+    },
+    {
+      "id": "route-9rstsmnim",
+      "from": "city-j3kjbvah3",
+      "fromName": "Emberfall",
+      "to": "city-rj9hz0oes",
+      "toName": "Nightspire",
+      "goods": [
+        "Iron Ore",
+        "Obsidian"
+      ],
+      "volume": 1958,
+      "danger": 1,
+      "description": "A ancient route connecting Emberfall and Nightspire. The road is maintained by merchant guilds."
+    },
+    {
+      "id": "route-exv2n5a7s",
+      "from": "city-urn05kxvv",
+      "fromName": "Shadowhaven",
+      "to": "city-qt23yiore",
+      "toName": "Bogwatch",
+      "goods": [
+        "Iron Ore",
+        "Silver"
+      ],
+      "volume": 2742,
+      "danger": 4,
+      "description": "A well-traveled route connecting Shadowhaven and Bogwatch. Caravans travel weekly."
+    },
+    {
+      "id": "route-3mbb5f7p3",
+      "from": "city-u7nvej27m",
+      "fromName": "Blackhold",
+      "to": "city-sv0pmtk4m",
+      "toName": "Mistral",
+      "goods": [
+        "Silver",
+        "Shadow Essence"
+      ],
+      "volume": 2830,
+      "danger": 9,
+      "description": "A well-traveled route connecting Blackhold and Mistral. The road is maintained by merchant guilds."
+    },
+    {
+      "id": "route-mrybli7cg",
+      "from": "city-e48d2d5z2",
+      "fromName": "Frostgate",
+      "to": "city-sv0pmtk4m",
+      "toName": "Mistral",
+      "goods": [
+        "Iron Ore",
+        "Silver"
+      ],
+      "volume": 4380,
+      "danger": 6,
+      "description": "A dangerous route connecting Frostgate and Mistral. Bandits lurk in the shadows."
+    },
+    {
+      "id": "route-8falf9q97",
+      "from": "city-zr9cz9fzg",
+      "fromName": "Ravenspire",
+      "to": "city-r7dekq59b",
+      "toName": "Voidmere",
+      "goods": [
+        "Gold",
+        "Shadow Essence"
+      ],
+      "volume": 1166,
+      "danger": 1,
+      "description": "A dangerous route connecting Ravenspire and Voidmere. Tolls are collected at checkpoints."
+    },
+    {
+      "id": "route-zl0fkj2me",
+      "from": "city-zr9cz9fzg",
+      "fromName": "Ravenspire",
+      "to": "city-urn05kxvv",
+      "toName": "Shadowhaven",
+      "goods": [
+        "Gold",
+        "Shadow Essence"
+      ],
+      "volume": 3681,
+      "danger": 1,
+      "description": "A heavily guarded route connecting Ravenspire and Shadowhaven. The road is maintained by merchant guilds."
+    },
+    {
+      "id": "route-3lw1i08hj",
+      "from": "city-sv0pmtk4m",
+      "fromName": "Mistral",
+      "to": "city-r7dekq59b",
+      "toName": "Voidmere",
+      "goods": [
+        "Iron Ore",
+        "Silver"
+      ],
+      "volume": 1700,
+      "danger": 1,
+      "description": "A heavily guarded route connecting Mistral and Voidmere. The road is maintained by merchant guilds."
+    }
+  ],
+  "markets": [
+    {
+      "resource": "Iron Ore",
+      "basePrice": 10,
+      "volatility": 0.27,
+      "trend": "rising"
+    },
+    {
+      "resource": "Silver",
+      "basePrice": 25,
+      "volatility": 0.39,
+      "trend": "stable"
+    },
+    {
+      "resource": "Gold",
+      "basePrice": 100,
+      "volatility": 0.33,
+      "trend": "rising"
+    },
+    {
+      "resource": "Obsidian",
+      "basePrice": 15,
+      "volatility": 0.23,
+      "trend": "stable"
+    },
+    {
+      "resource": "Void Crystals",
+      "basePrice": 200,
+      "volatility": 0.18,
+      "trend": "stable"
+    },
+    {
+      "resource": "Shadow Essence",
+      "basePrice": 75,
+      "volatility": 0.24,
+      "trend": "falling"
+    },
+    {
+      "resource": "Mana Shards",
+      "basePrice": 50,
+      "volatility": 0.17,
+      "trend": "rising"
+    },
+    {
+      "resource": "Grain",
+      "basePrice": 5,
+      "volatility": 0.32,
+      "trend": "falling"
+    },
+    {
+      "resource": "Wine",
+      "basePrice": 20,
+      "volatility": 0.34,
+      "trend": "stable"
+    },
+    {
+      "resource": "Spices",
+      "basePrice": 35,
+      "volatility": 0.17,
+      "trend": "falling"
+    },
+    {
+      "resource": "Steel Weapons",
+      "basePrice": 80,
+      "volatility": 0.13,
+      "trend": "falling"
+    },
+    {
+      "resource": "Enchanted Armor",
+      "basePrice": 150,
+      "volatility": 0.21,
+      "trend": "rising"
+    },
+    {
+      "resource": "Potions",
+      "basePrice": 30,
+      "volatility": 0.13,
+      "trend": "falling"
+    },
+    {
+      "resource": "Jewelry",
+      "basePrice": 60,
+      "volatility": 0.24,
+      "trend": "falling"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "epochs": [
+    {
+      "id": "epoch-2053oq848",
+      "name": "The Age of Dawn",
+      "startYear": -5000,
+      "endYear": -4000,
+      "description": "Heroes and monsters were born in equal measure."
+    },
+    {
+      "id": "epoch-wc03vuzcz",
+      "name": "The Era of Shadows",
+      "startYear": -4000,
+      "endYear": -3000,
+      "description": "A time of great change and upheaval."
+    },
+    {
+      "id": "epoch-yh8a5efdc",
+      "name": "The Time of Sundering",
+      "startYear": -3000,
+      "endYear": -2000,
+      "description": "A time of great change and upheaval."
+    },
+    {
+      "id": "epoch-qbl6z9qxj",
+      "name": "The Age of Ash",
+      "startYear": -2000,
+      "endYear": -1000,
+      "description": "Civilization rose and fell in cycles."
+    },
+    {
+      "id": "epoch-00djps4vc",
+      "name": "The Current Darkness",
+      "startYear": -1000,
+      "endYear": null,
+      "description": "Heroes and monsters were born in equal measure."
+    }
+  ],
+  "events": [
+    {
+      "id": "event-t2kzvgacn",
+      "epoch": "epoch-0",
+      "year": -4347,
+      "title": "Fall of The Voidwood",
+      "description": "A epoch-defining event that shaped the course of history. Scholars debate its true meaning.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-wnsnvv44y",
+      "epoch": "epoch-3",
+      "year": -4340,
+      "title": "The Great Sundering",
+      "description": "A major event that shaped the course of history. The full story has been lost to time.",
+      "significance": "major"
+    },
+    {
+      "id": "event-8n87bqse8",
+      "epoch": "epoch-3",
+      "year": -4047,
+      "title": "The Great Darkening",
+      "description": "A major event that shaped the course of history. Its effects are still felt today.",
+      "significance": "major"
+    },
+    {
+      "id": "event-wglr7v7jn",
+      "epoch": "epoch-0",
+      "year": -3916,
+      "title": "The Purge War",
+      "description": "A major event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "major"
+    },
+    {
+      "id": "event-qdsc22efs",
+      "epoch": "epoch-1",
+      "year": -3884,
+      "title": "The Eternal Plague",
+      "description": "A major event that shaped the course of history. The full story has been lost to time.",
+      "significance": "major"
+    },
+    {
+      "id": "event-vr7mjdpqh",
+      "epoch": "epoch-4",
+      "year": -3799,
+      "title": "Treaty of The Voidwood",
+      "description": "A moderate event that shaped the course of history. The full story has been lost to time.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-op2wuv52v",
+      "epoch": "epoch-2",
+      "year": -3758,
+      "title": "The Cursed Purge",
+      "description": "A major event that shaped the course of history. The full story has been lost to time.",
+      "significance": "major"
+    },
+    {
+      "id": "event-vt9gsll2h",
+      "epoch": "epoch-0",
+      "year": -3693,
+      "title": "Discovery of The Star Orb",
+      "description": "A moderate event that shaped the course of history. The full story has been lost to time.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-uci7q47cw",
+      "epoch": "epoch-2",
+      "year": -3449,
+      "title": "Treaty of Blackhold",
+      "description": "A moderate event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-vuhuptdn7",
+      "epoch": "epoch-2",
+      "year": -3427,
+      "title": "The Sacred Plague",
+      "description": "A major event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "major"
+    },
+    {
+      "id": "event-t117thp6a",
+      "epoch": "epoch-4",
+      "year": -3074,
+      "title": "Fall of Ironpeak",
+      "description": "A epoch-defining event that shaped the course of history. The full story has been lost to time.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-gi21rwos9",
+      "epoch": "epoch-3",
+      "year": -2997,
+      "title": "The Frozen Reckoning",
+      "description": "A major event that shaped the course of history. Its effects are still felt today.",
+      "significance": "major"
+    },
+    {
+      "id": "event-vle1509en",
+      "epoch": "epoch-0",
+      "year": -2746,
+      "title": "The Reckoning War",
+      "description": "A major event that shaped the course of history. The full story has been lost to time.",
+      "significance": "major"
+    },
+    {
+      "id": "event-qrua9ewoc",
+      "epoch": "epoch-0",
+      "year": -2676,
+      "title": "The Bitter Awakening",
+      "description": "A major event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "major"
+    },
+    {
+      "id": "event-zef8wd6xr",
+      "epoch": "epoch-3",
+      "year": -2654,
+      "title": "Fall of Bloodmarsh",
+      "description": "A epoch-defining event that shaped the course of history. The full story has been lost to time.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-lks9tmzse",
+      "epoch": "epoch-3",
+      "year": -2642,
+      "title": "The Exodus War",
+      "description": "A major event that shaped the course of history. Scholars debate its true meaning.",
+      "significance": "major"
+    },
+    {
+      "id": "event-ymkcbu47o",
+      "epoch": "epoch-1",
+      "year": -2554,
+      "title": "Treaty of Blackhold",
+      "description": "A moderate event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-8seeybwd1",
+      "epoch": "epoch-3",
+      "year": -2347,
+      "title": "Discovery of The Void Stone",
+      "description": "A moderate event that shaped the course of history. Its effects are still felt today.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-p22mrjhx1",
+      "epoch": "epoch-2",
+      "year": -2252,
+      "title": "Discovery of The Blood Chalice",
+      "description": "A moderate event that shaped the course of history. Scholars debate its true meaning.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-1lgcf1fxm",
+      "epoch": "epoch-1",
+      "year": -2137,
+      "title": "The Exodus War",
+      "description": "A major event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "major"
+    },
+    {
+      "id": "event-0ft7moaqf",
+      "epoch": "epoch-0",
+      "year": -2009,
+      "title": "Birth of The First Necromancer",
+      "description": "A moderate event that shaped the course of history. Scholars debate its true meaning.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-opqgb7znz",
+      "epoch": "epoch-3",
+      "year": -1939,
+      "title": "Fall of Ironpeak",
+      "description": "A epoch-defining event that shaped the course of history. Its effects are still felt today.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-x79p1cewl",
+      "epoch": "epoch-0",
+      "year": -1805,
+      "title": "Discovery of The Star Orb",
+      "description": "A moderate event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-gza0e7dnu",
+      "epoch": "epoch-0",
+      "year": -1754,
+      "title": "Fall of Bloodmarsh",
+      "description": "A epoch-defining event that shaped the course of history. Its effects are still felt today.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-u420k3uc6",
+      "epoch": "epoch-2",
+      "year": -1300,
+      "title": "The Awakening War",
+      "description": "A major event that shaped the course of history. Scholars debate its true meaning.",
+      "significance": "major"
+    },
+    {
+      "id": "event-yksbmdowo",
+      "epoch": "epoch-0",
+      "year": -1199,
+      "title": "Treaty of The Voidwood",
+      "description": "A moderate event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-9cp2flagt",
+      "epoch": "epoch-1",
+      "year": -1146,
+      "title": "The Reckoning War",
+      "description": "A major event that shaped the course of history. Multiple accounts contradict each other.",
+      "significance": "major"
+    },
+    {
+      "id": "event-an7733spd",
+      "epoch": "epoch-1",
+      "year": -895,
+      "title": "Birth of The Shadow King",
+      "description": "A moderate event that shaped the course of history. The full story has been lost to time.",
+      "significance": "moderate"
+    },
+    {
+      "id": "event-s3oyl878k",
+      "epoch": "epoch-3",
+      "year": -353,
+      "title": "Fall of Ironpeak",
+      "description": "A epoch-defining event that shaped the course of history. The full story has been lost to time.",
+      "significance": "epoch-defining"
+    },
+    {
+      "id": "event-e81cc2hah",
+      "epoch": "epoch-4",
+      "year": -106,
+      "title": "The Sacred Plague",
+      "description": "A major event that shaped the course of history. The full story has been lost to time.",
+      "significance": "major"
+    }
+  ]
+}
