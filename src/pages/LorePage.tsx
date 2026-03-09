@@ -3,6 +3,31 @@ import { motion } from 'framer-motion';
 import { Search, BookOpen } from 'lucide-react';
 import { useWorldStore } from '../store';
 
+interface Entity {
+  id: string;
+  name: string;
+  domain: string;
+  description: string;
+}
+
+interface Source {
+  id: string;
+  name: string;
+  description: string;
+}
+
+interface School {
+  id: string;
+  name: string;
+  description: string;
+}
+
+interface Biome {
+  type: string;
+  color: string;
+  characteristics: string[];
+}
+
 export function LorePage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeSection, setActiveSection] = useState<'overview' | 'myth' | 'magic' | 'geography'>('overview');
@@ -54,7 +79,7 @@ export function LorePage() {
           return (
             <button
               key={section.id}
-              onClick={() => setActiveSection(section.id as any)}
+              onClick={() => setActiveSection(section.id as 'overview' | 'myth' | 'magic' | 'geography')}
               className={`px-4 py-3 flex items-center gap-2 text-sm font-medium border-b-2 whitespace-nowrap transition-colors ${
                 activeSection === section.id
                   ? 'border-gold text-gold'
@@ -118,7 +143,7 @@ export function LorePage() {
             <div>
               <h3 className="text-lg font-display font-semibold text-bone mb-4">Primordial Entities</h3>
               <div className="grid md:grid-cols-3 gap-4">
-                {creationMyth.entities.map((entity: any, i: number) => (
+                {creationMyth.entities.map((entity: Entity, i: number) => (
                   <motion.div
                     key={entity.id}
                     initial={{ opacity: 0, scale: 0.9 }}
@@ -145,7 +170,7 @@ export function LorePage() {
             <div>
               <h3 className="text-lg font-display font-semibold text-bone mb-4">Sources of Magic</h3>
               <div className="grid md:grid-cols-2 gap-4">
-                {magicSystem.sources.map((source: any) => (
+                {magicSystem.sources.map((source: Source) => (
                   <div key={source.id} className="p-4 rounded-xl bg-charcoal border border-white/10">
                     <h4 className="font-semibold text-gold">{source.name}</h4>
                     <p className="text-sm text-fog-light mt-2">{source.description}</p>
@@ -153,11 +178,11 @@ export function LorePage() {
                 ))}
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-lg font-display font-semibold text-bone mb-4">Schools of Magic</h3>
               <div className="grid md:grid-cols-3 gap-4">
-                {magicSystem.schools.map((school: any) => (
+                {magicSystem.schools.map((school: School) => (
                   <div key={school.id} className="p-4 rounded-xl bg-void border border-white/10">
                     <h4 className="font-semibold text-mystic-light">{school.name}</h4>
                     <p className="text-sm text-fog-light mt-2">{school.description}</p>
@@ -188,7 +213,7 @@ export function LorePage() {
           >
             <h3 className="text-lg font-display font-semibold text-bone">Biomes of {worldName}</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {mapBiomes.map((biome: any) => (
+              {mapBiomes.map((biome: Biome) => (
                 <div key={biome.type} className="p-4 rounded-xl bg-charcoal border border-white/10">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-8 h-8 rounded-lg" style={{ backgroundColor: biome.color }} />

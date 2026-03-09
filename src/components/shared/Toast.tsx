@@ -1,24 +1,7 @@
-import { useState, type ReactNode, createContext, useContext, useCallback } from 'react';
+import { useState, type ReactNode, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle, AlertCircle, Info, AlertTriangle } from 'lucide-react';
-
-export type ToastType = 'success' | 'error' | 'warning' | 'info';
-
-interface ToastMessage {
-  id: string;
-  type: ToastType;
-  title: string;
-  message?: string;
-  duration?: number;
-}
-
-interface ToastContextType {
-  addToast: (toast: Omit<ToastMessage, 'id'>) => void;
-  removeToast: (id: string) => void;
-}
-
-// Toast Context for global access
-const ToastContext = createContext<ToastContextType | null>(null);
+import { type ToastType, type ToastMessage, ToastContext } from './types';
 
 /**
  * Toast Provider - Global toast notification system
@@ -79,17 +62,6 @@ export function ToastProvider({ children }: { children: ReactNode }) {
       </div>
     </ToastContext.Provider>
   );
-}
-
-/**
- * useToast - Hook to access toast functionality
- */
-export function useToast() {
-  const context = useContext(ToastContext);
-  if (!context) {
-    throw new Error('useToast must be used within a ToastProvider');
-  }
-  return context;
 }
 
 interface ToastItemProps {

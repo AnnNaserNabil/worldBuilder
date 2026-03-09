@@ -123,6 +123,9 @@ export function ParticleCanvas({
     }
   }, [connectionDistance]);
 
+  // Use a ref to store the animation callback to avoid forward reference
+  const animateCallbackRef = useRef<(() => void) | null>(null);
+
   const animate = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -133,7 +136,27 @@ export function ParticleCanvas({
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawParticles(ctx, canvas.width, canvas.height);
 
-    animationFrameRef.current = requestAnimationFrame(animate);
+    if (animateCallbackRef.current) {
+      animationFrameRef.current = requestAnimationFrame(animateCallbackRef.current);
+    }
+  }, [drawParticles]);
+
+  useEffect(() => {
+    // Define the callback that will be used for animation loop
+    animateCallbackRef.current = () => {
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawParticles(ctx, canvas.width, canvas.height);
+
+      if (animateCallbackRef.current) {
+        animationFrameRef.current = requestAnimationFrame(animateCallbackRef.current);
+      }
+    };
   }, [drawParticles]);
 
   useEffect(() => {

@@ -6,7 +6,9 @@
 export { ParticleCanvas } from './ParticleCanvas';
 export { Vignette } from './Vignette';
 export { Tooltip } from './Tooltip';
-export { Toast, ToastProvider, useToast, type ToastType } from './Toast';
+export { Toast, ToastProvider } from './Toast';
+export { useToast } from './useToast';
+export type { ToastType } from './types';
 export { CrossLinkChip, CrossLinkChipGroup } from './CrossLinkChip';
 export { EmptyState, EmptyStateList } from './EmptyState';
 export { PageTransition, StaggerChildren, FadeIn } from './PageTransition';

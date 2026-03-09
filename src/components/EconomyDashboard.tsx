@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, type ElementType } from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, TrendingDown, Minus, Coins, Package, Route, Building } from 'lucide-react';
 import economyData from '../../data/economy.json';
@@ -48,7 +48,9 @@ const rarityColors: Record<string, string> = {
   legendary: 'bg-blood/20 text-blood-light'
 };
 
-const trendIcons: Record<string, any> = {
+type TrendType = 'rising' | 'stable' | 'falling';
+
+const trendIcons: Record<TrendType, ElementType> = {
   rising: TrendingUp,
   stable: Minus,
   falling: TrendingDown
@@ -140,7 +142,7 @@ export function EconomyDashboard() {
           return (
             <button
               key={tab.id}
-              onClick={() => setActiveTab(tab.id as any)}
+              onClick={() => setActiveTab(tab.id as 'resources' | 'cities' | 'trade' | 'market')}
               className={`px-4 py-3 flex items-center gap-2 text-sm font-medium border-b-2 transition-colors ${
                 activeTab === tab.id
                   ? 'border-gold text-gold'
@@ -271,7 +273,7 @@ export function EconomyDashboard() {
               </thead>
               <tbody>
                 {markets.map((market) => {
-                  const TrendIcon = trendIcons[market.trend];
+                  const TrendIcon = trendIcons[market.trend as TrendType];
                   return (
                     <tr key={market.resource} className="border-b border-white/5 hover:bg-white/5">
                       <td className="py-3 px-4 text-bone">{market.resource}</td>

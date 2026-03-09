@@ -8,6 +8,15 @@ interface PageTransitionProps {
 }
 
 /**
+ * Get initial animation preference
+ */
+function getInitialAnimationPreference(): boolean {
+  if (typeof window === 'undefined') return true;
+  const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  return !mediaQuery.matches;
+}
+
+/**
  * PageTransition - Wrapper for smooth page transitions
  * GPU-accelerated using Framer Motion
  * Respects prefers-reduced-motion
@@ -17,12 +26,10 @@ export function PageTransition({
   mode = 'fade',
   duration = 0.4,
 }: PageTransitionProps) {
-  const [shouldAnimate, setShouldAnimate] = useState(true);
+  const [shouldAnimate, setShouldAnimate] = useState(getInitialAnimationPreference);
 
   useEffect(() => {
-    // Check for reduced motion preference
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setShouldAnimate(!mediaQuery.matches);
 
     const handleChange = (e: MediaQueryListEvent) => {
       setShouldAnimate(!e.matches);

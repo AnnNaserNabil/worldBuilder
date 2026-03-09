@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
+import type { ForceGraphMethods, NodeObject, LinkObject } from 'react-force-graph-2d';
 import { Search, Users } from 'lucide-react';
 import characterData from '../../data/characters.json';
 
@@ -27,6 +28,37 @@ interface Character {
   }>;
 }
 
+interface Faction {
+  id: string;
+  name: string;
+  members: string[];
+  influence: number;
+}
+
+interface GraphNode {
+  id: string;
+  name: string;
+  val: number;
+  faction: string;
+  role: string;
+  color: string;
+  x?: number;
+  y?: number;
+}
+
+interface GraphLink {
+  source: string;
+  target: string;
+  type: string;
+  strength: number;
+  color: string;
+}
+
+interface GraphData {
+  nodes: GraphNode[];
+  links: GraphLink[];
+}
+
 const relationshipColors: Record<string, string> = {
   ally: '#4ade80',
   enemy: '#f87171',
@@ -51,12 +83,12 @@ export function CharacterNetworkGraph() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterFaction, setFilterFaction] = useState<string>('all');
   const [filterRelationship, setFilterRelationship] = useState<string>('all');
-  const fgRef = useRef<any>(null);
+  const fgRef = useRef<ForceGraphMethods<NodeObject<GraphNode>, LinkObject<GraphNode, GraphLink>> | undefined>(undefined);
 
   const characters: Character[] = characterData.characters as Character[];
-  const factionsList: any[] = (characterData as any).factions || [];
+  const factionsList: Faction[] = (characterData as unknown as { characters: Character[]; factions?: Faction[] }).factions || [];
 
-  const graphData = useMemo(() => {
+  const graphData: GraphData = useMemo(() => {
     let filteredChars = characters;
     
     if (searchTerm) {
@@ -81,7 +113,7 @@ export function CharacterNetworkGraph() {
       color: factionColors[char.factionName] || '#6b7280'
     }));
 
-    const links: any[] = [];
+    const links: GraphLink[] = [];
     filteredChars.forEach(char => {
       char.relationships.forEach(rel => {
         if (filteredIds.has(rel.targetId)) {
@@ -101,7 +133,7 @@ export function CharacterNetworkGraph() {
     return { nodes, links };
   }, [characters, searchTerm, filterFaction, filterRelationship]);
 
-  const handleNodeClick = (node: any) => {
+  const handleNodeClick = (node: GraphNode) => {
     const character = characters.find(c => c.id === node.id);
     if (character) {
       setSelectedCharacter(character);
@@ -140,7 +172,7 @@ export function CharacterNetworkGraph() {
           className="px-4 py-2 rounded-lg bg-charcoal border border-white/10 text-bone focus:outline-none focus:border-gold/50"
         >
           <option value="all">All Factions</option>
-          {factionsList.map((f: any) => (
+          {factionsList.map((f: Faction) => (
             <option key={f.id} value={f.id}>{f.name}</option>
           ))}
         </select>
@@ -168,31 +200,33 @@ export function CharacterNetworkGraph() {
           ref={fgRef}
           graphData={graphData}
           nodeLabel="name"
-          nodeColor={(node: any) => node.color}
+          nodeColor={(node: GraphNode) => node.color}
           nodeRelSize={6}
-          linkColor={(link: any) => link.color}
-          linkWidth={(link: any) => Math.max(1, link.strength / 3)}
+          linkColor={(link: GraphLink) => link.color}
+          linkWidth={(link: GraphLink) => Math.max(1, link.strength / 3)}
           linkDirectionalArrowLength={4}
           onNodeClick={handleNodeClick}
           onBackgroundClick={handleBackgroundClick}
           backgroundColor="transparent"
-          nodeCanvasObject={(node: any, ctx: any) => {
+          nodeCanvasObject={(node: GraphNode, ctx: CanvasRenderingContext2D) => {
             const label = node.name;
             const size = node.val;
-            
+            const x = node.x ?? 0;
+            const y = node.y ?? 0;
+
             ctx.beginPath();
-            ctx.arc(node.x, node.y, size, 0, 2 * Math.PI);
+            ctx.arc(x, y, size, 0, 2 * Math.PI);
             ctx.fillStyle = node.color;
             ctx.fill();
             ctx.strokeStyle = '#fff';
             ctx.lineWidth = 1;
             ctx.stroke();
-            
+
             ctx.fillStyle = '#fff';
             ctx.font = '10px sans-serif';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillText(label, node.x, node.y + size + 12);
+            ctx.fillText(label, x, y + size + 12);
           }}
         />
 
