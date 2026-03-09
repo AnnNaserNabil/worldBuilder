@@ -10,21 +10,21 @@ afterEach(() => {
 // Mock matchMedia for components that use it
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: vi.fn().mockImplementation(query => ({
+  value: (query: string) => ({
     matches: false,
     media: query,
     onchange: null,
-    addListener: vi.fn(),
-    removeListener: vi.fn(),
-    addEventListener: vi.fn(),
-    removeEventListener: vi.fn(),
-    dispatchEvent: vi.fn(),
-  })),
+    addListener: () => {},
+    removeListener: () => {},
+    addEventListener: () => {},
+    removeEventListener: () => {},
+    dispatchEvent: () => {},
+  }),
 });
 
 // Mock requestAnimationFrame
-global.requestAnimationFrame = (cb: FrameRequestCallback) => setTimeout(cb, 0);
-global.cancelAnimationFrame = (id: number) => clearTimeout(id);
+window.requestAnimationFrame = (cb: FrameRequestCallback) => setTimeout(cb, 0);
+window.cancelAnimationFrame = (id: number) => clearTimeout(id);
 
 // Mock localStorage
 const localStorageMock = {
